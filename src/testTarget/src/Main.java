@@ -6,11 +6,8 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		/* QUESTÃO 1 */
-		// Ao final do processamento, o valor será 91.
-		// Isso se deve por causa de sua atribuição a cada iteração no while.
-		// a variável receberá ela mesma + a variavel K a cada iteração, chegando no
-		// valor de 91.
+		/* QUESTÃO 2 */
+	
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Escolha um numero: ");
@@ -25,8 +22,10 @@ public class Main {
 
 		}
 
-				
+		/*  Questão 5  */
 		
+		String word = "Gustavo Paulo";
+		System.out.println(StringQuestion.reverseString(word));
 
 	}
 
